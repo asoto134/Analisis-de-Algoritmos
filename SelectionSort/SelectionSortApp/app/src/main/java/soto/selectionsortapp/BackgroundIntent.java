@@ -24,7 +24,7 @@ public class BackgroundIntent extends IntentService {
 
 
 
-    static final int MAX_VALUE = 1000;
+    static final int MAX_VALUE = 100000;
     static int[] data = new int[MAX_VALUE];
 
 

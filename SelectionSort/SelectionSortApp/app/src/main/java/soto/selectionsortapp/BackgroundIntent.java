@@ -78,8 +78,11 @@ public class BackgroundIntent extends IntentService {
         try {
 
             long start = System.nanoTime();
-            generarNuevoArreglo();
-            Selection();
+            for(int i = 0;i < 1000;i++)
+            {
+                generarNuevoArreglo();
+                Selection();
+            }
             long end = System.nanoTime();
 
             long elapsedTime = end - start;

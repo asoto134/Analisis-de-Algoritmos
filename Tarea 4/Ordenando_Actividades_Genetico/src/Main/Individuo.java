@@ -1,8 +1,10 @@
+package Main;
+
 
 
 public class Individuo {
 
-    static int largoDeGenesPorDefecto = 64;
+    static int largoDeGenesPorDefecto = 20;
     private byte[] genes = new byte[largoDeGenesPorDefecto];
     // Cache
     private int fitness = 0;

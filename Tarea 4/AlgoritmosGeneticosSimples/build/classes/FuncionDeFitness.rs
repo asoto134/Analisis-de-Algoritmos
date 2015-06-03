@@ -1,1 +1,0 @@
-AlgoritmosGeneticosSimples.FuncionDeFitness
